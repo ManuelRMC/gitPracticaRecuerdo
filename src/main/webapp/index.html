@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FitLife Studio</title>
+</head>
+<body>
+<h1>FitLife Studio </h1><h2>- Tu centro deportivo de confianza</h2>
+<br>
+
+<h3>Menú de navegación:</h3>
+<ul> 
+<li><a href="direccionWeb">Inicio</a></li> 
+<li><a href="direccionWeb">Instalaciones</a></li> 
+<li><a href="direccionWeb">Horarios</a></li> 
+<li><a href="direccionWeb">Inscripción</a></li>
+<li><a href="direccionWeb">Contacto</a></li>
+</ul>
+<br>
+
+<h2>Instalaciones.</h2>
+<p>Bienvenido a FitLife Studio 
+En FitLife Studio contamos con más de 2000m2 dedicados a la salud y el rendimiento físico. 
+Nuestras instalaciones incluyen zona de peso libre, salas de actividades colectivas y piscina 
+olímpica.</p> <br>
+
+ <img src="gymrat.jpg" alt="Imagen de miemro ntrenando" width="500">
+    <video controls width="560">
+        <source src="gymvideo.mp4" type="video/mp4">
+    </video>
+<audio controls src="thebox.mp3"> Ejemplo de música de ambiente.</audio>
+<br>
+
+<h2>Horarios.</h2>
+<table border>
+<caption>Horario de Clases Colectivas 2026</caption>
+	<tr>
+	<th>Horario</th>
+	<th>Lunes</th>
+	<th>Martes</th>
+	<th>Miércoles</th>
+	<th>Jueves</th>
+	<th>Viernes</th>
+	</tr>
+	<tr>
+	<td>09.00-10.00</td>
+	<td>Spinning</td>
+	<td>Pilates</td>
+	<td>Spinning</td>
+	<td>Pilates</td>
+	<td>Yoga</td>
+	<tr>
+	<tr>
+	<td>10.00-11.00</td>
+	<td>CrossFit</td>
+	<td>BodyPump</td>
+	<td>CrossFit</td>
+	<td>BodyPump</td>
+	<td>Zumba</td>
+	<tr>
+	<tr>
+	<td>17.00-18.00</td>
+	<td colspan="5">Mantenimiento y Limpieza de Salas</td>
+	<tr>
+</table>
+<p size="8"> Los horarios pueden sufrir modificaciones en festivos. </p>
+<br>
+
+<h2>Inscripción.</h2>
+
+<form action>
+<fieldset>
+<legend>Grupo 1: Datos personales.</legend>
+
+<p>
+<label>- Nombre completo:<input type="text" name="nombre" required></label> <br>
+<label>- Correo electrónico:<input type="email" name="correo" required></label> <br>
+<label>- Teléfono de contacto:<input type="number" name="ntelefono"></label> <br>
+<label>- Fecha de nacimiento:<input type="date" name="fnacimiento"></label> <br>
+</p>
+</fieldset>
+<fieldset>
+<legend>Grupo 2: Configuración de cuota.</legend>
+<select name="sede"> 
+<option value="0" disabled selected>Sede preferida.</option>
+<option value="1">Sevilla: Centro. </option>
+<option value="2">Sevilla: Nervión.</option>
+<option value="3">Málaga: Teatinos.</option>
+</select>
+<p>Tipo de tarifa:</p>    
+<label> Mensual (35€) <input type="radio" name="tarifa"></label> 
+<label> Trimestral (90€)<input type="radio" name="tarifa"></label> 
+<label> Anual (300€) <input type="radio" name="tarifa"></label> 
+<p>Servicios extras:</p>
+<label> Acceso a piscina (+10€) <input type="checkbox" name="extras"></label> 
+<label> Taquilla privada (+5€) <input type="checkbox" name="extras"></label> 
+<label> Entrenador personal (+30€) <input type="checkbox" name="extras"></label> <br>
+<label>Hora preferida de entreamiento: <input type="time" name="hpreferida"></label> <br>
+<label>Observaciones médicas o físicas: <input type="text" name="observaciones"></label>
+</fieldset>
+
+<button type="submit">Enviar.</button>
+<button type="submit">Resetear.</button>
+
+</form>
+
+
+</body>
+</html>
